@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"/>
+      <!-- to do list - move the explore button on the landing page to center, align??? transform??
+      add underline javascript to projects tab 
+      fix everything else-->
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"><i>James Cranham</i></a>
+        <!-- navbar logo - text but can be altered or replaced with img -->
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Contact Me</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <!-- video background envisioned, nothing fancy just short 30 second bit - shots of sheffield - shots of code in action - smiling faces etc -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Hi, I'm <span>James</span></div></h1>
+        <p class="hero__description"><span><i>I'm a Software Developer based in Sheffield, UK</i></p>
+        </div>
+    </div>
+    <!-- about section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__image--container">
+          <div class="main__img--card">
+            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHzs7di0sSt2g/profile-displayphoto-shrink_200_200/0/1647514447031?e=1652918400&v=beta&t=I78Aq_k47mORpTL6qoVjK4iOtlrwhWTJCWCBVsaqkX4" alt="A photo of a man smiling at the camera" width="350" height="350">
+          </div>
+
+        </div>
+        <div class="main__content">
+          <br><br><br><br><br><br><h1><i>Who am I?</i></h1>
+          <p>Holding a Degree in Marketing Communications & Advertising with a background in Creative Media, I pride myself on producing creatively striking, concise and responsive Websites.<br><br>I love championing my professional values of Accessibility & Responsiveness through my work.</p>
+          <h1><i>Any good at it?</i></h1>
+          <p>I like to think so! You can have a look at my skills in action and see how I've applied this to professional work and personal hobbyist programming.</p>
+          <button class="main__btn"><a href="#skills">What Can I Do?</a></button>
+        </div>
+      </div>
+    </div>
+
+        <!-- skills section -->
+        <div class="skills" id="skills">
+          <h1>Skills & Experience </h1>
+          <div class="skills__wrapper">
+            <div class="skills__card">
+              <h2>Front-End</h2>
+              <p>HTML, CSS, Javascript & Libraries</p>
+              <!-- 3 pages - personal page similar to this but more basic, -->
+              <div class="skills__btn"><button>Explore</button></div>
+            </div>
+            <div class="skills__card">
+              <h2>Back-end</h2>
+              <p>Showcase back-end work and understanding of concepts</p>
+              <div class="skills__btn"><button>Explore</button></div>
+            </div>
+            <div class="skills__card">
+              <h2>Personal Projects</h2>
+              <p>Showcasing project work, link to skills and develop on concepts</p>
+              <div class="skills__btn"><button>Explore</button></div>
+            </div>
+            <!-- maybe switch these last two round idk maybe... did you take your meds this morning? -->
+            <div class="skills__card">
+              <h2>CV</h2>
+              <p>I look great on paper, but even better on Code!</p>
+              <div class="skills__btn"><button>Explore</button></div>
+            </div>
+          </div>
+        </div>
+
+
+    <!-- projects section -->
+    <div class="projects" id="projects">
+      <h1>Recent Projects</h1>
+      <div class="projects__wrapper">
+        <div class="projects__card">
+          <h2>Web Design & Development</h2>
+          <p>notable examples</p>
+          <!-- showcase websites made freelance or as part of future work -->
+          <div class="projects__btn"><button>Explore</button></div>
+        </div>
+        <div class="projects__card">
+          <h2>UX and UI</h2>
+          <p>card to showcase frontend work</p>
+          <!-- showcase notable ui work and design with code implementation (color palettes, advertising strategy) -->
+          <div class="projects__btn"><button>Explore</button></div>
+        </div>
+        <div class="projects__card">
+          <h2>Intuitive Solutions</h2>
+          <p>Visuals of my work in action</p>
+          <!-- embeds of video showcasing code in action, hosted through backend - chance to do a bit of showing off  -->
+          <div class="projects__btn"><button>Explore</button></div>
+        </div>
+        <div class="projects__card">
+          <h2>Source Code</h2>
+          <p>Tinkering, Scripting & Testing (link to github)</p>
+          <!-- github link -->
+          <div class="projects__btn"><button>Explore</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- features section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1><i>Contact Me</i></h1>
+          <!-- <h2></h2> -->
+          <p>If you would like to chat about a project or have any questions, please follow the link below to send me an Email.<br><br> I aim to get back to all queries within 2 days. </p>
+          <button class="main__btn"><a href="mailto:jimmycranham@gmail.com">Let's talk!</a></button>
+          <!-- TO DO - MAKE A PROFESSIONAL EMAIL AND LINK IT TO THE BUTTON -->
+        </div>
+        <div class="main__image--container">
+          <div class="main__img--card"><i class="fas fa-users" id="card-3"></i></div>
+          
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2></h2>
+            <a href="/"></a>
+            <a href="/"></a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Linkedin</a>
+            <a href="/">CodePen</a>
+            <a href="/">GitHub</a>
+            <!-- <a href="/">roll me</a> -->
+          </div>
+          <div class="footer__link--items">
+            <h2>Legal Stuff</h2>
+            <a href="/">Copyright/Rights</a>
+            <a href="/"></a>
+            <a href="/">Licences</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">made with love, javascript & ☕</a>
+          </div>
+          <p class="website__rights">© James Cranham, 2021. All rights reserved.</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-github"></i></a>
+            <!-- <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-instagram"></i></a> -->
+            <a href="/" class="social__icon--link" target="blank"><i class="fab fa-linkedin"></i></a>
+            <!-- <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-twitter"></i></a> -->
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
