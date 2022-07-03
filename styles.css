@@ -751,6 +751,7 @@
   .social__icon--link {
     color: #FFff;
     font-size: 24px;
+    margin-right: 10px;
   }
 
   .social__media {
