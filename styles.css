@@ -8,7 +8,7 @@
   }
 
   .body {
-    background: none;
+    background: #;
   }
 
   .navbar {
@@ -877,7 +877,7 @@
     background-image: url(/logos/csslogo.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200px 150px;
+    background-size: 215px 150px;
     align-items: center;
   }
     
@@ -893,7 +893,7 @@
       background-image: url(/logos/javascript.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 200px 150px;
+      background-size: 215px 150px;
       align-items: center;
     }
 
