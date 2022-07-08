@@ -8,7 +8,7 @@
   }
 
   .body {
-    background: url(/bckgrnd/wave-haikei.png), none;
+    background: none;
   }
 
   .navbar {
@@ -862,8 +862,6 @@
     background-position: center;
     background-size: 125px 125px;
     align-items: center;
-    
-   
   }
 
 
@@ -895,7 +893,7 @@
       background-image: url(/logos/javascript.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 225px 125px;
+      background-size: 200px 150px;
       align-items: center;
     }
 
@@ -927,7 +925,7 @@
       background-image: url(/logos/nodeJs.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 200px 125px;
+      background-size: 300px 125px;
       align-items: center;
     }
 
@@ -943,7 +941,7 @@
       background-image: url(/logos/mongologo.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 200px 125px;
+      background-size: 300px 125px;
       align-items: center;
     }
 
@@ -959,7 +957,7 @@
       background-image: url(/logos/gitlogo.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 175px 125px;
+      background-size: 300px 125px;
       align-items: center;
     }
 
@@ -975,7 +973,7 @@
       background-image: url(/logos/php.png);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 150px 115px;
+      background-size: 300px 115px;
       align-items: center;
     }
   
