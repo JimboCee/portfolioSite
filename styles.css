@@ -5,10 +5,11 @@
     font-family: 'Kumbh Sans', sans-serif;
     scroll-behavior: smooth;
     
+    
   }
 
   .body {
-    background-size: cover;
+    background-size: auto;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -834,10 +835,19 @@
     padding: 10rem 0;
   }
   
-  .tools_wrapper {
+  .tools_section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-columns: 426px 426px 426px;
+    text-align: center;
+    margin-top: '-=50px'
+  }
+
+  .grid-item {
+    background-color: rgba(255,255,0.8, green, blue, alpha);
+    border: 1px solid white;  
+    padding: 55px;
+    font-size: 30px;
+    text-align: center;
   }
 
   
