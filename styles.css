@@ -8,8 +8,13 @@
   }
 
   .body {
-    background: #;
-  }
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
 
   .navbar {
     background: #131313;
@@ -828,19 +833,7 @@
     height: 100%;
     padding: 10rem 0;
   }
-
-  .tools_Title {
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 5rem;
-    font-size: 2.5rem;
-  }
-
+  
   .tools_wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -856,7 +849,7 @@
   
 
 
-  
+/*   
 
   .tools_card h2 {
     text-align: center;
@@ -892,4 +885,4 @@
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
-  }
+  } */
