@@ -837,12 +837,13 @@
   
   .tools_section {
     display: grid;
-    grid-template-columns: 426px 426px 426px;
+    grid-template-columns: 426px 426px;
     text-align: center;
-    margin-top: '-=50px'
+    margin-top: '-=80px'
+    grid-gap: 10px 10px;
   }
 
-  .grid-item {
+  .grid-item-frontend {
     background-color: rgba(255,255,0.8, green, blue, alpha);
     border: 1px solid white;  
     padding: 55px;
@@ -850,6 +851,25 @@
     text-align: center;
   }
 
+  .grid-item-backend {
+    border: 1px solid white
+  }
+
+  .grid-item-frontend-info {
+    border: 1px solid red;
+  }
+
+  .grid-item-backend-info {
+    border: 1px solid red;
+  }
+
+  .grid-item-other {
+    border: 1px solid white;
+  }
+
+  .grid-item-other-info {
+    border: 1px solid red;
+  }
   
 
   
