@@ -65,3 +65,4 @@ menuLinks.addEventListener('click', hideMobileMenu)
 navLogo.addEventListener('click', hideMobileMenu)
 
 // display info in 'tools' subcategory, WIP
+

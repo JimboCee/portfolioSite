@@ -511,6 +511,7 @@
     font-size: 3rem;
   }
 
+
   .projects__wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -551,6 +552,7 @@
 
   .projects__card h2 {
     text-align: center;
+    
   }
 
   .projects__card p {
@@ -870,84 +872,108 @@
   }
   
   .html_img {
-    max-width: 35%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
 
   .css_img {
-    max-width: 35%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
   
 
   .javascript_img {
-    max-width: 35%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
   
   .react_img {
-    max-width: 35%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
   
   .bootstrap_img {
-    max-width: 40%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
 
   .php_img {
-    max-width: 30%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
 
   .node_img {
-    max-width: 30%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
   
   .mongodb_img {
-    max-width: 30%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
   
   .heroku_img {
-    max-width: 30%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
 
   .github_img {
-    max-width: 30%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
 
   .popOs_img {
-    max-width: 30%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
 
   .vsCode_img {
-    max-width: 30%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
 
   .premiere_img {
-    max-width: 30%;
-    max-height: 30%;
+    height: 64px;
+    width: 64px;
     margin: 5px;
   }
 
+  .disability {
+    height: 64px;
+    width: 64px;
+    margin: 5px;
+  }
+
+  .tools_header h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .tools_subheader {
+    color: white;
+    background-color: #fe3c7f;
+    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+  }
 /*   
 
   .tools_card h2 {
