@@ -818,3 +818,14 @@
       width: 100px;
     }
   }
+
+  .pomodoro_h1 {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 75px;
+  }
+
+  .body {
+    background-color: #000000;
+  }
