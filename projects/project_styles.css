@@ -402,6 +402,14 @@
     background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
   }
 
+  .video_wrapper {
+    width: 500px;
+    height: 700px;
+    float: left;
+    position: relative;
+  }
+  
+
   .fa-layer-group, .fa-users {
     font-size: 14rem;
   }
