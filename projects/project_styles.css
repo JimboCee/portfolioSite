@@ -404,11 +404,10 @@
 
   .video_wrapper {
     width: 500px;
-    height: 700px;
+    height: 720px;
     float: left;
-    position: relative;
+    position: relative
   }
-  
 
   .fa-layer-group, .fa-users {
     font-size: 14rem;
@@ -444,8 +443,9 @@
   }
 
   .main__content {
-    text-align: center;
-    margin-bottom: 4rem;
+    
+    align-items: center;
+    margin-bottom: 3rem;
   }
 
   .main__content h1 {
